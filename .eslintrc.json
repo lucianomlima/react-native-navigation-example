@@ -1,0 +1,34 @@
+{
+  "extends": "airbnb",
+  "files": ["app/*.js"],
+  "globals": {
+    "__DEV__": false,
+    "navigator": false
+  },
+  "parser": "babel-eslint",
+  "rules": {
+    "class-methods-use-this": "off",
+    "comma-dangle": ["error", "never"],
+    "indent": ["error", 4, {
+      "SwitchCase": 1
+    }],
+    "global-require": "off",
+    "no-underscore-dangle": ["error", {
+      "allowAfterThis": true
+    }],
+    "react/jsx-closing-bracket-location": [1, {
+      "selfClosing": "after-props",
+      "nonEmpty": "after-props"
+    }],
+    "react/forbid-prop-types": 0,
+    "react/jsx-indent": [2, 4],
+    "react/jsx-indent-props": [2, 4],
+    "react/jsx-filename-extension": 0,
+    "react/no-array-index-key": 0,
+    "react/prop-types": ["error", {
+      "ignore": ["theme", "style", "children"],
+      "skipUndeclared": true
+    }],
+    "react/require-default-props": "off"
+  }
+}
