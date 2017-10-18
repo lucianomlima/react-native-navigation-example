@@ -1,6 +1,6 @@
 # React Native Navigation Example
 
-Simple React Native app example with react-navigation with redux integration.
+Simple React Native app example with [react-navigation](https://github.com/react-community/react-navigation) and [redux](https://github.com/reactjs/react-redux) integration.
 
 To run this example:
  
